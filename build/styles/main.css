@@ -37,16 +37,16 @@ header {
   padding-bottom: 24px;
 }
 header .profile-avatar {
-  transition: transform 0.8s ease;
-  transform: scale(1.2);
   display: block;
   margin: 0 auto 40px;
   border-radius: 50%;
   width: 200px;
+  transition: transform 0.8s ease;
+  transform: scale(1.2);
 }
 @media (max-width: 767px) {
   header .profile-avatar {
-    max-width: 150px;
+    width: 150px;
   }
 }
 .profile-bio {
